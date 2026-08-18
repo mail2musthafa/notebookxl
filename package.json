@@ -1,0 +1,10 @@
+{
+  "name": "notebookxl",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NotebookXL — multi-tenant school operating system prototype",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  }
+}

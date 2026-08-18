@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "user-6e460449-ec8c-4f2b-885b-82b266b2b389",
+      "tenantId": "tenant-captin-master-school-a61477a8",
+      "name": "Build Check User",
+      "email": "buildcheck1786648755@gmail.com",
+      "mobile": "9999999999",
+      "role": "SCHOOL_ADMIN",
+      "passwordHash": "b6bc7b58510319a151d168ba3d5aecb3ac0a9708d06dd930f37fbc89b6cdc697",
+      "createdAt": "2026-08-13T19:19:15.756Z",
+      "updatedAt": "2026-08-13T19:19:15.756Z"
+    }
+  ],
+  "tenants": [
+    {
+      "id": "tenant-captin-master-school-a61477a8",
+      "slug": "captin-master-school",
+      "schoolName": "Captin Master School",
+      "code": "CAP",
+      "createdAt": "2026-08-13T19:19:15.754Z"
+    }
+  ]
+}

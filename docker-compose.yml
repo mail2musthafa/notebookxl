@@ -1,0 +1,41 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: notebookxl-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: notebookxl
+      POSTGRES_USER: notebookxl
+      POSTGRES_PASSWORD: notebookxl
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+    container_name: notebookxl-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: notebookxl-backend
+    restart: unless-stopped
+    env_file:
+      - .env.example
+    environment:
+      NOTEBOOKXL_FRONTEND_URL: http://127.0.0.1:4176
+    depends_on:
+      - postgres
+      - redis
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/data:/app/data
+
+volumes:
+  pgdata:

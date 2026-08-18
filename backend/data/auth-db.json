@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "id": "user-bf4665897901477e98d2bc4c8a304713",
+      "tenantId": "tenant-captain-master-school-2d5ac81a",
+      "name": "Persist User",
+      "email": "persist1786650336@gmail.com",
+      "mobile": "9999999999",
+      "role": "SCHOOL_ADMIN",
+      "authProvider": "password",
+      "passwordHash": "b6bc7b58510319a151d168ba3d5aecb3ac0a9708d06dd930f37fbc89b6cdc697",
+      "createdAt": "2026-08-13T19:45:36.088888+00:00",
+      "updatedAt": "2026-08-13T19:45:36.088888+00:00"
+    },
+    {
+      "id": "user-meezan-admin",
+      "tenantId": "tenant-meezankids",
+      "name": "Meezan Admin",
+      "email": "management@meezankids.com",
+      "mobile": "9999999999",
+      "role": "SCHOOL_ADMIN",
+      "authProvider": "password",
+      "passwordHash": "89db983b49c00f85d3836a65e25690510e3f26ab99f1e99f38a6a4381eb12c74",
+      "createdAt": "2026-08-14T00:00:00+00:00",
+      "updatedAt": "2026-08-14T00:00:00+00:00"
+    },
+    {
+      "id": "user-meezan-teacher",
+      "tenantId": "tenant-meezankids",
+      "name": "Meezan Teacher",
+      "email": "teacher@meezankids.com",
+      "mobile": "9999999999",
+      "role": "TEACHER",
+      "authProvider": "password",
+      "passwordHash": "89db983b49c00f85d3836a65e25690510e3f26ab99f1e99f38a6a4381eb12c74",
+      "createdAt": "2026-08-14T00:00:00+00:00",
+      "updatedAt": "2026-08-14T00:00:00+00:00"
+    },
+    {
+      "id": "user-meezan-student",
+      "tenantId": "tenant-meezankids",
+      "name": "Meezan Student",
+      "email": "student@meezankids.com",
+      "mobile": "9999999999",
+      "role": "STUDENT",
+      "authProvider": "password",
+      "passwordHash": "89db983b49c00f85d3836a65e25690510e3f26ab99f1e99f38a6a4381eb12c74",
+      "createdAt": "2026-08-14T00:00:00+00:00",
+      "updatedAt": "2026-08-14T00:00:00+00:00"
+    },
+    {
+      "id": "user-fd4ddffe4fec447abba12765178aacc5",
+      "tenantId": "tenant-meezan-kids-school-4ff46098",
+      "name": "Social Demo",
+      "email": "social.demo+1@meezankids.com",
+      "mobile": "",
+      "role": "TEACHER",
+      "authProvider": "google",
+      "passwordHash": null,
+      "createdAt": "2026-08-13T20:18:07.652699+00:00",
+      "updatedAt": "2026-08-13T20:18:07.652699+00:00"
+    },
+    {
+      "id": "user-e3b1efbbc0474c7b9a9248bb6c421306",
+      "tenantId": "tenant-meezan-kids-school-4ff46098",
+      "name": "Google Teacher",
+      "email": "google.teacher@meezankids.com",
+      "mobile": "",
+      "role": "TEACHER",
+      "authProvider": "google",
+      "passwordHash": null,
+      "createdAt": "2026-08-13T20:34:34.233775+00:00",
+      "updatedAt": "2026-08-13T20:34:34.233775+00:00"
+    },
+    {
+      "id": "user-7aedee4828bd4d67ad7697f99112c965",
+      "tenantId": "tenant-meezan-kids-school-4ff46098",
+      "name": "Facebook Student",
+      "email": "facebook.student@meezankids.com",
+      "mobile": "",
+      "role": "STUDENT",
+      "authProvider": "facebook",
+      "passwordHash": null,
+      "createdAt": "2026-08-13T20:34:34.273847+00:00",
+      "updatedAt": "2026-08-13T20:34:34.273847+00:00"
+    },
+    {
+      "id": "user-2fb1f1ebfed24b81b93ffea5290017af",
+      "tenantId": "tenant-meezan-kids-school-4ff46098",
+      "name": "Apple Admin",
+      "email": "apple.school-admin@meezankids.com",
+      "mobile": "",
+      "role": "SCHOOL_ADMIN",
+      "authProvider": "apple",
+      "passwordHash": null,
+      "createdAt": "2026-08-13T20:34:34.332908+00:00",
+      "updatedAt": "2026-08-13T20:34:34.332908+00:00"
+    },
+    {
+      "id": "user-ab2d42a802844d09afa270f84969d181",
+      "tenantId": "tenant-meezankids",
+      "name": "Google Admin",
+      "email": "google.school-admin@meezankids.com",
+      "mobile": "",
+      "role": "SCHOOL_ADMIN",
+      "authProvider": "google",
+      "passwordHash": null,
+      "createdAt": "2026-08-13T20:35:00.106517+00:00",
+      "updatedAt": "2026-08-13T20:35:00.106517+00:00"
+    },
+    {
+      "id": "user-5bd26f962f724dda8ceb036f8742deef",
+      "tenantId": "tenant-meezankids",
+      "name": "Facebook School management",
+      "email": "facebook.school-admin@meezankids.com",
+      "mobile": "",
+      "role": "SCHOOL_ADMIN",
+      "authProvider": "facebook",
+      "passwordHash": null,
+      "createdAt": "2026-08-13T20:41:27.809581+00:00",
+      "updatedAt": "2026-08-13T20:41:27.809581+00:00"
+    },
+    {
+      "id": "user-7403507313f543919f0abb2322cfa8c2",
+      "tenantId": "tenant-meezankids",
+      "name": "Google School management",
+      "email": "meazan@gmail.com",
+      "mobile": "",
+      "role": "SCHOOL_ADMIN",
+      "authProvider": "google",
+      "passwordHash": null,
+      "createdAt": "2026-08-16T20:05:10.603142+00:00",
+      "updatedAt": "2026-08-16T20:05:10.603142+00:00"
+    }
+  ],
+  "tenants": [
+    {
+      "id": "tenant-captain-master-school-2d5ac81a",
+      "slug": "captain-master-school",
+      "schoolName": "Captain Master School",
+      "code": "CAP",
+      "createdAt": "2026-08-13T19:45:36.088872+00:00"
+    },
+    {
+      "id": "tenant-meezankids",
+      "slug": "meezankids",
+      "schoolName": "Meezan Kids School",
+      "code": "MKS",
+      "createdAt": "2026-08-14T00:00:00+00:00"
+    },
+    {
+      "id": "tenant-meezan-kids-school-4ff46098",
+      "slug": "meezan-kids-school",
+      "schoolName": "Meezan Kids School",
+      "code": "MEE",
+      "createdAt": "2026-08-13T20:18:07.652685+00:00"
+    }
+  ],
+  "communityPosts": [
+    {
+      "id": "post-cf5d077482934e34a51fe8c3ee1c044c",
+      "tenantId": "tenant-meezankids",
+      "workspace": "meezankids",
+      "authorRole": "SCHOOL_ADMIN",
+      "authorName": "Farah Ahmed",
+      "audience": "ALL",
+      "category": "General",
+      "message": "hi",
+      "createdAt": "2026-08-14T05:41:24.651996+00:00",
+      "attachments": [],
+      "reactions": {
+        "like": 2,
+        "clap": 6,
+        "heart": 9
+      },
+      "comments": [
+        {
+          "id": "comment-29bde76c4f86436aa7c62e57dd7a40fd",
+          "authorName": "Farah Ahmed",
+          "role": "SCHOOL_ADMIN",
+          "text": "thank you so much",
+          "createdAt": "2026-08-14T05:41:55.817740+00:00"
+        },
+        {
+          "id": "comment-75216ed364ca443491ea630adf81d50c",
+          "authorName": "Farah Ahmed",
+          "role": "SCHOOL_ADMIN",
+          "text": "welcome",
+          "createdAt": "2026-08-14T05:42:10.516570+00:00"
+        }
+      ]
+    }
+  ]
+}
